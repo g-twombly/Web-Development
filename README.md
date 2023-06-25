@@ -6,26 +6,15 @@ with frontend and backend using HTML, CSS, javascript, and Node specifically.
 This ecommerce store focuses on bringing the community together to source
 fruits for lower prices. I appreciate any feedback!
 
-
 ## To run the website:
 ## Install Packages
-Make sure you have Node downloaded
-Save my files to your computer
-Cd into the final project folder
-Run npm install in your "final project" terminal
-Run node app.js or nodemon app.js
-Wait for the 8000 channel to be open
+Make sure you have Node downloaded, save the files to your computer, cd into the final project folder,
+run "npm install" in the terminal of your "final project" directory, run node by typing "node app.js" or "nodemon app.js" into the terminal. Now, just wait for the 8000 channel to be open!
 
 ## Open in Browser
-Type and search http://localhost:8000 in your web browser (e.g. Google Chrome)
-You should now have access!
+Type http://localhost:8000 in your web browser (preferably Google Chrome). You should now have access to the website!
 
 ## Troubleshooting
-If there are still issues, make sure you may have to manually install:
-Node
-Express
-Fs
-Multer
-Using npm install "name"
+If there are still issues, you may have to manually install Node, Express, Fs, Multer using "npm install "name"". Make sure you are using http://localhost:8000 and not opening the html in browser from the folder.
 
 # Please look at the APIDOC for further information
