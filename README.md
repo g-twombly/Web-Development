@@ -1,7 +1,7 @@
 # Final Project Fruit Ecommerce Store README
 ## Author: Gabriella Twombly
 Hello! Thank you for reviewing my project. This is an ecommerce store 
-with frontend and backend using HTML, CSS, javascript, and Node specifically.
+with frontend and backend using HTML, CSS, javascript, and Node specifically. The API pulls the data for fruit stocked and their details.
 This ecommerce store focuses on bringing the community together to source
 fruits for lower prices. I appreciate any feedback!
 
