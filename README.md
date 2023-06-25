@@ -13,6 +13,8 @@ run "npm install" in the terminal of your "final project" directory, run node by
 ## Open in Browser
 Type http://localhost:8000 in your web browser (preferably Google Chrome). You should now have access to the website!
 
+You may also watch this video (missing some minor updates to success messages): https://youtu.be/yIVvaOLRhpY
+
 ## Troubleshooting
 If there are still issues, you may have to manually install Node, Express, Fs, Multer using "npm install "name"". Make sure you are using http://localhost:8000 and not opening the html in browser from the folder.
 
