@@ -1,6 +1,5 @@
-# Author: Gabriella Twombly
-
 # Final Project Fruit Ecommerce Store README
+## Author: Gabriella Twombly
 Hello! Thank you for reviewing my project. This is an ecommerce store 
 with frontend and backend using HTML, CSS, javascript, and Node specifically.
 This ecommerce store focuses on bringing the community together to source
