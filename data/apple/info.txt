@@ -1,0 +1,7 @@
+apple
+1.00
+crisp texture
+imgs/apple.jpeg
+bushel-of-apples
+apple hill, ca
+10

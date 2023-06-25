@@ -1,0 +1,116 @@
+/* 
+  Name: Gabriella Twombly
+  CS 132 Spring 2023
+
+  This page handles the styles for my FAQ webpage.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  /* Source: https://www.vecteezy.com/vector-art
+    /20740395-wooden-material-textured-surface-wood
+    -comic-background-in-cartoon-style-wall-panel-
+    for-game-ui-design-vector-illustration
+    By: Alona Zhitna */
+  background-image: url("wood-panel.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body, h2 {
+  font-family: 'Courier Prime', monospace;
+}
+
+body,
+header,
+.question {
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  height: auto;
+  width: 60%;
+  background-color: #ffff;
+  margin: 0 auto;
+}
+
+.faq-section {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.question, .answer {
+  background-color: rgb(97, 114, 97);
+}
+
+.question,
+header {
+  color: black;
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.question,
+.answer {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.answer p,
+h1,
+body, nav {
+  margin: 0;
+}
+
+section {
+  padding-top: 0;
+}
+
+section, header {
+  padding: 20px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  background: #2f4e2f;
+  font-size: 15px;
+}
+
+nav, body {
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  padding: 0 28px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #086754;
+}

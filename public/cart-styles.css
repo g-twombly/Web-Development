@@ -1,0 +1,109 @@
+/* 
+  Name: Gabriella Twombly
+  CS 132 Spring 2023
+
+  This page handles the styles for my cart webpage.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+body {
+  /* Source: https://www.vecteezy.com/vector-art
+      /20740395-wooden-material-textured-surface-wood
+      -comic-background-in-cartoon-style-wall-panel-
+      for-game-ui-design-vector-illustration
+      By: Alona Zhitna */
+  background-image: url("wood-panel.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body,
+header,
+th {
+  text-align: center;
+}
+
+header,
+section {
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  height: 500px;
+  width: 60%;
+  background-color: #ffff;
+  margin: 0 auto;
+}
+
+.faq-section {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+header {
+  color: black;
+}
+
+h1,
+body,
+nav {
+  margin: 0;
+}
+
+section {
+  padding-top: 0;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+h2,
+body {
+  font-family: "Courier Prime", monospace;
+}
+
+nav ul {
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  background: #2f4e2f;
+  font-size: 15px;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  padding: 0 28px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+nav,
+body {
+  padding: 0;
+}
+
+nav li:hover {
+  background: #086754;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 10%;
+  border-bottom: 1px solid gray;
+  padding: 5pt;
+}

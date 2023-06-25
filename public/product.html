@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    Author: Gabriella Twombly
+    CS 132 Spring 2023
+
+    This is the index.html page for my web dev CP3 homework.
+    It includes links to my clubs, events, my linkedin, and an image.
+    Adding in JS functionality and API to webpage.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Product</title>
+    <link rel="stylesheet" href="product-styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Welcome to Your Community Garden...</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="singleproduct">
+            <h2 id="product-name"></h2>
+            <div class="product-details">
+                <div class="image-container">
+                    <img id="product-image" src="temp" alt="temp">
+                </div>
+                <ul class="details">
+                    <li id="product-price"></li>
+                    <li id="product-description"></li>
+                    <li id="product-source"></li>
+                    <li id="product-stock"></li>
+                    <li>
+                        <label for="customization">Customizations:</label>
+                        <textarea id="customization" placeholder="No green fruit..." rows="4" cols="50"></textarea>
+                    </li>
+                    <li>
+                        <label for="quantity">Quantity:</label>
+                        <select id="quantity">
+                            <option value="1">1</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                        </select>
+                    </li>
+                    <li id="reply"></li>
+                </ul>
+                <button id="addToCart">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <script src="product.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    Citations:
+    Website for all images: Pixabay
+    Fruit: Apples
+    User: Larisa-K
+    Fruit: Bananas
+    User: _Alicja_
+    Fruit: Blackberry
+    User: Ajale
+    Fruit: Blueberry
+    User: elizadean
+    Fruit: Cherry
+    User: Couleur
+    Fruit: Grape
+    User: stevepb
+    Fruit: Kiwi
+    User: AliceKeyStudio
+    Fruit: Mango
+    User: luhaifeng
+    Fruit: Papaya
+    User: varintorn
+    Fruit: Peach
+    User: Couleur
+    Fruit: Pear
+    User: PublicDomainPictures
+    Fruit: Pineapple
+    User: Shutterbug75
+    Fruit: Plum
+    User: Pavlofox
+    Fruit: Strawberry
+    User: robertobarresi
+    Fruit: Watermelon
+    User: Pexels 
+-->

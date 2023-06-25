@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+    Author: Gabriella Twombly
+    CS 132 Spring 2023
+
+    This is the index.html page for my web dev CP3 homework.
+    It includes links to my clubs, events, my linkedin, and an image.
+    Adding in JS functionality and API to webpage.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Garden</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Welcome to Your Community Garden...</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p> Thanks for joining us!
+            We collaborate with in-state communities to offer
+            fresh fruit available at affordable prices. </p>
+        <section>
+            <h2> Produce Available: </h2>
+            <div>
+                <input type="radio" id="filterRadio" name="filter" value="true">
+                <label for="filterRadio">Imported from Mexico</label>
+            </div>
+            <div>
+                <input type="radio" id="noFilterRadio" name="filter" value="false" checked>
+                <label for="noFilterRadio">Show all fruits</label>
+            </div>
+
+
+            <div id="products">
+
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

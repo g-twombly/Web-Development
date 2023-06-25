@@ -1,0 +1,115 @@
+/* 
+  Name: Gabriella Twombly
+  CS 132 Spring 2023
+
+  This page handles the styles for my home / index webpage.
+  It will handle all the fruits being displayed.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  /* Source: https://www.vecteezy.com/vector-art
+    /20740395-wooden-material-textured-surface-wood
+    -comic-background-in-cartoon-style-wall-panel-
+    for-game-ui-design-vector-illustration
+    By: Alona Zhitna */
+  background-image: url("wood-panel.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body, nav {
+  padding: 0;
+}
+
+body,
+header {
+  text-align: center;
+}
+
+header, section {
+  padding: 20px;
+}
+
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+  padding-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  height: 100%;
+  width: 80%;
+  background-color: #ffff;
+  margin: 0 auto;
+}
+
+.faq-section {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+
+header {
+  color: black;
+}
+
+h1,
+body, nav {
+  margin: 0;
+}
+
+section {
+  padding-top: 0;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+body, h2 {
+  font-family: 'Courier Prime', monospace;
+}
+
+nav ul {
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  background: #2f4e2f;
+  font-size: 15px;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  padding: 0 28px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #086754;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+#products img {
+  width: 100px;
+  height: 100px;
+}
+
+#products img {
+  border-radius: 60%;
+}
+
+.clear {
+  clear: both;
+}

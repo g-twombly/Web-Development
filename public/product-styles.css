@@ -1,0 +1,121 @@
+/* 
+  Name: Gabriella Twombly
+  CS 132 Spring 2023
+
+  This page handles the styles for a single product webpage.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+  /* Source: https://www.vecteezy.com/vector-art
+      /20740395-wooden-material-textured-surface-wood
+      -comic-background-in-cartoon-style-wall-panel-
+      for-game-ui-design-vector-illustration
+      By: Alona Zhitna */
+  background-image: url("wood-panel.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+body,
+header {
+  text-align: center;
+}
+
+header, main, section {
+  padding: 20px;
+}
+
+header {
+  color: black;
+}
+
+h1,
+body, nav, .details {
+  margin: 0;
+}
+
+section {
+  padding-top: 0;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+h2, body {
+  font-family: 'Courier Prime', monospace;
+}
+
+nav {
+  height: 45px;
+  line-height: 45px;
+  background: #2f4e2f;
+  font-size: 15px;
+}
+
+nav ul, .details {
+  list-style: none;
+}
+
+body, nav {
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  padding: 0 28px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #086754;
+}
+
+main {
+  max-width: 60%;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.image-container {
+  width: 60%;
+  margin-right: 10px;
+}
+
+#product-image {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  padding-top: 10px;
+}
+
+.details li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#product-name {
+  margin-top: 0;
+}
+
+.product-details .details {
+  margin-top: 5px;
+}
+
+

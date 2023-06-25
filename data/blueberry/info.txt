@@ -1,0 +1,7 @@
+blueberry
+0.10
+small, round, sweet, & tart berries of blue color
+imgs/blueberry.jpeg
+pints-of-blueberries
+san joaquin valley, ca
+10

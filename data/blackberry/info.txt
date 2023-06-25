@@ -1,0 +1,7 @@
+blackberry
+0.20
+juicy and tart berries of a black color
+imgs/blackberry.jpeg
+plate-of-blackberries
+central coast, ca
+10

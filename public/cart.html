@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+    Author: Gabriella Twombly
+    CS 132 Spring 2023
+
+    This is the index.html page for my web dev CP3 homework.
+    It includes links to my clubs, events, my linkedin, and an image.
+    Adding in JS functionality and API to webpage.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart-styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Welcome to Your Community Garden...</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cart</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Customization</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+        </table>
+
+        <p>Total Price: <span id="total-price"></span></p>
+        <p id="reply"></p>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>

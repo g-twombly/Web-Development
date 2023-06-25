@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+    Author: Gabriella Twombly
+    CS 132 Spring 2023
+
+    This is the index.html page for my web dev CP3 homework.
+    It includes links to my clubs, events, my linkedin, and an image.
+    Adding in JS functionality and API to webpage.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-us-styles.css">
+    <title>Contact Us!</title>
+</head>
+
+<body>
+    <header>
+        <h1> Welcome to Your Community Garden...</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Can't find what you're looking for? Contact us!</h2>
+        <section>
+            <form id="contact-form">
+                <p>
+                    <label for="email">Please share your email: </label>
+                    <input id="email" name="email" type="email" autocomplete="on" required>
+                </p>
+                <p><label for="msg">Please share your message below:</label></p>
+                <textarea id="msg" placeholder="Please add this fruit..." name="msg" 
+                rows="15" cols="75" minlength="15" required></textarea>
+
+                <p><button id="submitted">Submit!</button></p>
+            </form>
+        </section>
+        <p id="response"></p>
+    </main>
+    <script src="contact-us.js"></script>
+</body>
+
+</html>
